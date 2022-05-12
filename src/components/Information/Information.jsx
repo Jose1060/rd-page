@@ -31,13 +31,13 @@ const Information = () => {
 
 	return (
 		<section
-			className={`flex flex-col bg-white py-20 text-3xl md:text-4xl rounded-3xl
+			className={`flex flex-col bg-turquoise-100 py-20 text-3xl md:text-4xl rounded-3xl mx-10 md:mx-40 
 
 			`}>
 			<div className="container mx-auto px-11 z-50">
 				<p className="leading-tight max-w-5xl mx-auto text-4xl tracking-thight">
 					Somos una empresa dedicada a dar{" "}
-					<strong>
+					<strong className="text-turquoise-800">
 						{" "}
 						soluciones y servicios de tecnologías de información y
 						comunicaciones, servicios eléctricos y seguridad electrónica ;{" "}
@@ -47,7 +47,7 @@ const Information = () => {
 					educación y entrenamiento en cada una de sus áreas de negocio
 				</p>
 				<div className="container mx-auto px-11 text-center mt-28">
-					<h2 className="border-b-4 border-indigo-500 pb-7">
+					<h2 className="border-b-4 border-viridian-400 pb-7">
 						Areas de Negocio
 					</h2>
 					<div className=" justify-center mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 lg:gap-20">

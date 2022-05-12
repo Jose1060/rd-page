@@ -13,8 +13,8 @@ const Home = () => {
 			</Head>
 
 			<VideoHeader />
-			<div className="bg-black rounded-full">
-				<Information />p
+			<div className="bg-turquoise-700 rounded-full">
+				<Information />
 				<Capacities />
 			</div>
 		</div>
