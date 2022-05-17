@@ -32,8 +32,7 @@ const VideoHeader = () => {
 				muted
 				playsInline
 				className="absolute w-full h-full object-cover">
-				<source src="/assets/videos/ryd-bg-green.mov" type="video/mov" />
-				<source src="/assets/videos/ryd-bg-green.mp4" type="video/mp4" />
+				<source src="/assets/videos/ryd-bg.mp4" type="video/mp4" />
 			</video>
 			<div
 				className={`flex-grow-0 pt-10 transition-all duration-1000
