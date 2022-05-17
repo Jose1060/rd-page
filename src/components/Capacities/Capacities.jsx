@@ -3,9 +3,7 @@ import style from "../../styles/capacities.module.css";
 import { useContext, useRef } from "react";
 
 const opacityForBlock = (sectionProgress, blockNo) => {
-	console.log(sectionProgress, blockNo);
 	const progress = sectionProgress - blockNo;
-	console.log("progress:", progress);
 	if (progress >= 0 && progress < 1) return 1;
 	return 0.2;
 };

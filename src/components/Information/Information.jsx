@@ -24,14 +24,14 @@ const Information = () => {
 		},
 		{
 			id: "5",
-			name: "Venta de Equipos y accesorios de computo y telecomunicaciones",
+			name: "Venta de equipos y accesorios de computo y telecomunicaciones",
 			logo: "ryd-veat-logo.svg",
 		},
 	];
 
 	return (
 		<section
-			className={`flex flex-col bg-turquoise-100 py-20 text-3xl md:text-4xl rounded-3xl mx-10 md:mx-40 
+			className={`flex flex-col bg-turquoise-100 py-20 text-3xl md:text-4xl rounded-3xl mx-0 md:mx-10 drop-shadow-2xl
 
 			`}>
 			<div className="container mx-auto px-11 z-50">
