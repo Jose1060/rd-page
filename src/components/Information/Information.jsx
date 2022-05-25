@@ -50,7 +50,7 @@ const Information = () => {
 					<h2 className="border-b-4 border-viridian-400 pb-7">
 						Areas de Negocio
 					</h2>
-					<div className=" justify-center mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 lg:gap-20">
+					<div className="justify-center mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 lg:gap-20">
 						{areas.map((area) => (
 							<AreaInformation
 								key={area.id}

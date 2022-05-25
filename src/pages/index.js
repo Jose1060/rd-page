@@ -3,6 +3,8 @@ import VideoHeader from "../components/VideoHeader/VideoHeader";
 import Information from "../components/Information/Information";
 import Capacities from "../components/Capacities/Capacities";
 import Products from "../components/Products/Products";
+import TradeMarks from "../components/TradeMarks/TradeMarks";
+import ContactUs from "../components/ContactUS/ContactUs";
 
 const Home = () => {
 	return (
@@ -14,10 +16,12 @@ const Home = () => {
 			</Head>
 
 			<VideoHeader />
-			<div className="bg-turquoise-700 rounded-full">
+			<div className="bg-turquoise-100 rounded-t-full">
 				<Information />
 				<Capacities />
 				<Products />
+				<TradeMarks />
+				<ContactUs />
 			</div>
 		</div>
 	);
