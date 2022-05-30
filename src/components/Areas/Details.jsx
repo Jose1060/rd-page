@@ -5,12 +5,14 @@ import Solutions from "./Solutions";
 const Details = ({ children, title, opOptions }) => {
 	return (
 		<div className="py-20">
-			<h1 className="text-3xl text-primary-900 text-center py-10">{title}</h1>
-			<div className="px-5 text-xl text-center text-primary-600">
+			<h1 className="text-5xl text-navy-50 text-center py-10 font-semibold leading-8">
+				{title}
+			</h1>
+			<div className="px-5 text-2xl text-center text-primary-600">
 				<p>{children}</p>
 			</div>
 			<div>
-				<Carousel className="py-20 lg:py-20">
+				<Carousel className="pt-20 lg:pt-20">
 					{opOptions.map((item) => {
 						return (
 							<CarouselItem key={item.id} index={item.id}>

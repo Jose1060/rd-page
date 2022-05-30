@@ -59,6 +59,17 @@ module.exports = {
 					900: "#122222",
 				},
 			},
+			animation: {
+				bounce: "bounce 5s infinite",
+				upDown: "upDown 4s linear infinite",
+			},
+			keyframes: {
+				upDown: {
+					"0%": { transform: "translateY(0)" },
+					"50%": { transform: "translateY(20px)" },
+					"100%": { transform: "translateY(0)" },
+				},
+			},
 		},
 	},
 	plugins: [],
