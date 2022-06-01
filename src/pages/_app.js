@@ -1,12 +1,15 @@
 import { PageProvider } from "../context/pageContext";
 import "../styles/globals.css";
 import ScrollObserver from "../../utils/scroll-observer";
+import SizeObserver from "../../utils/size-observer";
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<ScrollObserver>
-			<Component {...pageProps} />
-		</ScrollObserver>
+		<SizeObserver>
+			<ScrollObserver>
+				<Component {...pageProps} />
+			</ScrollObserver>
+		</SizeObserver>
 	);
 }
 

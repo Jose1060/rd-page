@@ -15,9 +15,7 @@ const AreaInformation = (props) => {
 			<div className="text-2xl xl:text-3xl">{props.name}</div>
 			<div className="text-xl">
 				<Link href={props.link}>
-					<a
-						target="_blank"
-						className="underline underline-offset-8 decoration-1 transition-all duration-1000 hover:text-navy-400">
+					<a className="underline underline-offset-8 decoration-1 transition-all duration-1000 hover:text-navy-400">
 						Ver más
 					</a>
 				</Link>
