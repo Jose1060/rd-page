@@ -20,7 +20,7 @@ const MDetailsCD = ({ children, img, description }) => {
 				fill="none"
 				className="w-full px-10"
 				xmlns="http://www.w3.org/2000/svg">
-				<g id="Svg2" clip-path="url(#clip0_1_2)">
+				<g id="Svg2" clipPath="url(#clip0_1_2)">
 					<g id="blob (1) 1" className="animate-upDown">
 						<path
 							id="Vector"
@@ -324,8 +324,8 @@ const MDetailsCD = ({ children, img, description }) => {
 						x2="49.6109"
 						y2="101.449"
 						gradientUnits="userSpaceOnUse">
-						<stop stop-color="#86FFB6" />
-						<stop offset="1" stop-color="#498F8B" />
+						<stop stopColor="#86FFB6" />
+						<stop offset="1" stopColor="#498F8B" />
 					</linearGradient>
 					<clipPath id="clip0_1_2">
 						<rect width="697.484" height="461.234" fill="white" />

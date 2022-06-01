@@ -51,7 +51,7 @@ const VideoHeader = () => {
 				</h2>
 			</div>
 			<div
-				className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000
+				className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 animate-bounce
 					${imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"}
 				`}>
 				<Image

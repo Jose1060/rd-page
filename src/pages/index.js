@@ -5,6 +5,7 @@ import Capacities from "../components/Capacities/Capacities";
 import Products from "../components/Products/Products";
 import TradeMarks from "../components/TradeMarks/TradeMarks";
 import ContactUs from "../components/ContactUS/ContactUs";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
 	return (
@@ -13,6 +14,9 @@ const Home = () => {
 				<title>R y D</title>
 				<meta name="description" content="R y D" />
 				<link rel="icon" href="/favicon.ico" />
+				<script
+					src="//code.tidio.co/lt7xwouluaicnmzgkitjmrmbaw0wbjb0.js"
+					async></script>
 			</Head>
 
 			<VideoHeader />
@@ -22,6 +26,7 @@ const Home = () => {
 				<Products />
 				<TradeMarks />
 				<ContactUs />
+				<Footer />
 			</div>
 		</div>
 	);

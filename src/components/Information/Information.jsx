@@ -6,26 +6,31 @@ const Information = () => {
 			id: "1",
 			name: "Soluciones y Servicios TICs",
 			logo: "ryd-sst-logo.svg",
+			link: "/soluciones_servicios_TICs",
 		},
 		{
 			id: "2",
 			name: "Soluciones de Software",
 			logo: "ryd-ss-logo.svg",
+			link: "/soluciones_servicios_TICs",
 		},
 		{
 			id: "3",
 			name: "Seguridad Electronica",
 			logo: "ryd-se-logo.svg",
+			link: "/soluciones_servicios_TICs",
 		},
 		{
 			id: "4",
 			name: "Soluciones y Servicios electricos",
 			logo: "ryd-sse-logo.svg",
+			link: "/soluciones_servicios_TICs",
 		},
 		{
 			id: "5",
 			name: "Venta de equipos y accesorios de computo y telecomunicaciones",
 			logo: "ryd-veat-logo.svg",
+			link: "/soluciones_servicios_TICs",
 		},
 	];
 
@@ -56,7 +61,7 @@ const Information = () => {
 								key={area.id}
 								name={area.name}
 								logo={area.logo}
-								link={`#`}
+								link={area.link}
 							/>
 						))}
 					</div>

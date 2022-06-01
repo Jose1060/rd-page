@@ -9,17 +9,15 @@ const TradeMarks = () => {
 			<div className="flex-1"></div>
 			<div className="flex flex-col justify-center items-center">
 				<h3 className="text-xl mb-10 font-bold text-center">
-					<span className="whitespace-nowrap">Marcas</span>
-					<span className="whitespace-nowrap">
-						Algunas marcas que tenemos disponible
-					</span>
+					<span className="whitespace-nowrap">Algunas marcas </span>
+					<span className="whitespace-nowrap">que tenemos disponible</span>
 				</h3>
 				<MarksLogos />
 			</div>
 			<div className="flex flex-col justify-center items-center">
 				<div className="container mx-auto lg:max-w-[70%] lg:px-10">
 					<h3 className="text-3xl lg:text-4xl tracking-thight text-center px-10 !leading-[3.5rem]">
-						Tenemos los productos que tu o tu empresa necesitan
+						Tenemos los productos que necesitas a los precios que necesitas
 					</h3>
 				</div>
 			</div>
